@@ -1,0 +1,68 @@
+.background-image{
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top center;
+	height: 3vw;
+	width: 105px;
+}
+.all-card-container{
+	margin: 0 5%;
+}
+
+.all_card .freecell-card-column{
+	-ms-flex: 0 0 12.5%;
+    flex: 0 0 12.5%;
+    max-width: 12.5%;
+	padding: 0 1vw;
+	cursor: grab;
+}
+.freecell-card-column:active,
+.freecell-card-column.active{
+	cursor: grabbing;
+}
+
+.freecell-column-1{
+	-ms-flex: 0 0 5%;
+    flex: 0 0 5%;
+    max-width: 5%;
+}
+
+.freecell-column-card-slot{
+	-ms-flex: 0 0 10.5%;
+    flex: 0 0 10.5%;
+    max-width: 10.5%;
+}
+.freecell-column-empty-slot{
+	-ms-flex: 0 0 5.5%;
+    flex: 0 0 5.5%;
+    max-width: 5.5%;
+}
+.freecell-card-slot{
+	background-color: #E8E8E8;
+	height: 13vw;
+    width: 9vw;
+    margin: 0 auto;
+	position: relative;
+}
+.freecell-card-slot .background-image{
+	height: 0;
+}
+.freecell-card-slot .background-image img{
+	position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+
+.red-circle{
+	background-color: red;
+	width: 60px;
+	height: 60px;
+}
+#time span{
+	line-height: 1;
+	font-size: 20px;
+	color: white;
+}
